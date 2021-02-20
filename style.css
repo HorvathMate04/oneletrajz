@@ -1,0 +1,131 @@
+body{
+    background-image: url("img/háttér.jpg");
+}
+.box{
+    font-family: Arial;
+    text-align: center;
+    background-color: rgba(240, 240, 240, 0.5);
+    width:1200px;
+    height:1000px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 50px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 50px;
+    grid-template-rows: 50px 100px 100px 100px 100px 100px 100px 100px 100px 100px 50px;
+}
+.érd{
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.érdszöv{
+    margin-top: -15px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.érdvid{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    width:300px;
+    height:200px;
+}
+.ró{
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.rószöv{
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.tap{
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.tapszöv{
+    margin-top: -15px;
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.vég{
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    text-align: center;
+    margin-top: 65px;
+}
+.végszöv{
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 8;
+    grid-row-end: 10;
+}
+.énkép{
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-top: -8px;
+    border:#3c3c3c 4px solid;
+}
+.címszó{
+    border-bottom: black 2px solid;
+}
+.elér{
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+.elérszöv{
+    margin-top: -10px;
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 9;
+    grid-row-end: 11;
+}
+h2{
+    font-family: 'Segoe UI';
+    font-size: 25px;
+}
+h1{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: black 8px solid;border-bottom-style: double;
+    border-top: black 8px solid;border-top-style: double;
+}
+p{
+    font-size: 17px;
+}
+a:hover{
+    color: red;
+}
+ul{
+    font-size: 17px;
+    text-align: left;
+}
+.alaplap{
+    margin-top: 15px;
+    grid-column-start: 10;
+    grid-column-end: 13;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    height: 170px;
+    width: 300px;
+}
